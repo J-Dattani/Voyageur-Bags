@@ -11,6 +11,7 @@ $con = mysqli_connect($hostname, $username, $password, $database) or die("Error 
 // Fetch records with necessary JOIN and fields
 $sql = "SELECT items.*, categories.category_name FROM items LEFT  JOIN categories ON items.category = categories.category_id";
 $result = mysqli_query($con, $sql);
+
 // Array to hold processed data
 $array = array();
 
