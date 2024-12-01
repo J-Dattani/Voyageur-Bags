@@ -1,0 +1,1099 @@
+
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 9999; /* Ensure loader is above everything */
+  width: 80px;
+  height: 80px;
+  margin: -40px 0 0 -40px; /* Center the loader */
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #009e1d;
+  animation: spin 2s linear infinite;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+#loading-text {
+  color: #006f09;
+  text-align: center;
+  position: fixed;
+  font-size: 1.5em;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 9998; /* Ensure text is above content, below loader */
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* CSS to fade in the page content */
+#page-content {
+  display: none; /* Initially hidden */
+  opacity: 0; /* Initially transparent */
+  animation: fadeIn 1s ease-in-out forwards; /* Fade in animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Summary{
+    color: #000000a1;
+    position: relative;
+    font-size: 2.5em;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 20px;
+}
+
+
+.summary_container{
+    z-index: 996;
+    position: relative;
+    left: 35px;
+    width: 95%;
+    height: 800px;
+    border-radius: 25px;
+    border: 2px solid black;
+
+}
+
+table{
+    position: relative;
+    margin: 30px;
+}
+
+th,td{
+    width: 260px;
+}
+
+.itm{
+    line-height: 2.5;
+text-align: left;
+font-size: 1.4em;
+
+}
+
+.cat,.price,.qut{
+    line-height: 2.5;
+    position: relative;
+text-align: right;
+left: 320px;
+font-size: 1.4em;
+}
+
+.hr14r{
+    border: 2px solid white;
+}
+
+.billing_form{
+    width: 800px;
+    height: 500px;
+    border: none;
+    margin: 10px;
+
+}
+
+.billing_form>h2{
+    margin: 20px;
+    color: #000000a1;
+    position: relative;
+    font-size: 1.5em;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    right: 10px;
+}
+
+
+form{
+    position: relative;
+    float: right;
+    right: 0px;
+    bottom: 0px;
+  }
+
+input[type=text]{
+    font-size: 1em;
+    width: 350px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    background-color:#ffffffcb ;
+    color: black;
+    margin: 8px 0;
+    right: 44px;
+    position: relative;
+    outline: #01860cc5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    border: transparent;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ffff; 
+    border: transparent;
+  }
+  
+  input[type=text]:hover{
+    background-color: #ffff; 
+    border: transparent;
+  }
+
+::placeholder{
+    color: black;
+}
+
+.for_contact{
+    top: -24px;
+    position: relative;
+    float: right;
+    right: 48px;
+  }
+  
+  label{
+    font-size: 1.2em;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000a1;
+    position: relative;
+    right: 44px;
+
+  }
+
+  input[type=phone]{
+    width: 350px;
+    background-color:#ffffffcb ;
+    color: black;
+  }
+  
+  input[type=phone]:focus {
+    background-color: #ffff; 
+    border: transparent;
+  }
+  
+  input[type=phone]:hover{
+    background-color: #ffff; 
+    border: transparent;
+  }
+
+  .label_for_phone{
+    position: relative;
+    left: 5px;
+  }
+
+  input[type=address]{
+    font-size: 1em;
+    width: 740px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    background-color:#ffffffcb ;
+    color: black;
+    margin: 8px 0;
+    right: 44px;
+    position: relative;
+    outline: #01860cc5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    border: transparent;
+
+  }
+  
+  input[type=address]:focus {
+    background-color: #ffff; 
+    border: transparent;
+  }
+  
+  input[type=address]:hover{
+    background-color: #ffff; 
+    border: transparent;
+  }
+
+  input[type=area]{
+    font-size: 1em;
+    width: 740px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    background-color:#ffffffcb ;
+    color: black;
+    margin: 8px 0;
+    right: 44px;
+    position: relative;
+    outline: #01860cc5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    border: transparent;
+
+  }
+  
+  input[type=area]:focus {
+    background-color: #ffff; 
+    border: transparent;
+  }
+  
+  input[type=area]:hover{
+    background-color: #ffff; 
+    border: transparent;
+  }
+
+  label.label_for_city{
+    position: relative;
+    left: 3px;
+  }
+  
+  input[type=landmark]{
+    font-size: 1em;
+    width: 740px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    background-color:#ffffffcb ;
+    color: black;
+    margin: 8px 0;
+    right: 44px;
+    position: relative;
+    outline: #01860cc5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    border: transparent;
+
+  }
+  
+  input[type=landmark]:focus {
+    background-color: #ffff; 
+    border: transparent;
+  }
+  
+  input[type=landmark]:hover{
+    background-color: #ffff; 
+    border: transparent;
+  }
+
+  input[type=pincode]{
+    font-size: 1em;
+    width: 350px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    background-color:#ffffffcb ;
+    color: black;
+    margin: 8px 0;
+    right: 44px;
+    position: relative;
+    outline: #01860cc5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    border: transparent;
+  }
+  
+  input[type=pincode]:focus {
+    background-color: #ffff; 
+    border: transparent;
+  }
+  
+
+  
+  input[type=pincode]:hover{
+    background-color: #ffff; 
+    border: transparent;
+  }
+
+
+  input[type=city]{
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    background-color:#ffffffcb ;
+    color: black;
+    width: 350px;
+    margin: 8px 0;
+    position: relative;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    border: transparent;
+  }
+  
+  input[type=city]:focus {
+    background-color: #ffff; 
+    border: transparent;
+  }
+  
+  input[type=city]:hover{
+    background-color: #ffff; 
+    border: transparent;
+  }
+
+  .bill{
+    border-radius: 25px;
+    border: none;
+    background-color: #c7c7c7;
+    width: 600px;
+    height: 530px;
+    float: right;
+    bottom: 570px;
+    position: relative;
+    margin: 20px;
+  }
+
+  .est{
+    background-color: transparent;
+    margin: 20px;
+    color: #000000a1;
+    position: relative;
+    font-size: 1.1em;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .est>p{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.834);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .note{
+    background-color: transparent;
+    margin: 20px;
+    color: #000000a1;
+    position: relative;
+    font-size: 1.1em;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .note>p{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.834)
+  }
+
+  .hr15r{
+    background-color: transparent;
+    border: 2px solid white;
+  }
+
+  .grand_total{
+    background-color: transparent;
+    margin: 20px;
+    color: #000000a1;
+    position: relative;
+    font-size: 1.1em;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+  }
+
+  .grand_total>p{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.834);
+  }
+
+  .item_amt{
+    background-color: transparent;
+    position: relative;
+    float: right;
+    margin: 20px;
+    bottom: 40px;
+  }
+
+  .shipping{
+    background-color: transparent;
+    position: relative;
+    float: right;
+    margin: 20px;
+    left: 85px;
+    bottom: 40px;
+  }
+
+  .hr16r{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 530px;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+
+.tax{   
+    background-color: transparent;
+    bottom: 25px;
+    color: black;
+    position: relative;
+
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.item_tax{
+    background-color: transparent;
+    position: relative;
+    float: right;
+    left: 70px;
+    margin: 20px;
+    bottom: 40px;
+}
+
+.hr17r{
+    border: 2px solid white;
+    width: 170px;
+    background-color: transparent;
+    position: relative;
+    float: right;
+    left: 197px;
+    top: 10px;
+}
+
+.grand_amt{
+    position: relative;
+    float: right;
+    background-color: transparent;
+    left: 180px;
+    margin: 20px;
+    bottom: 37px;
+    background-color: transparent;
+    
+}
+
+.btncnt{
+    transform: translate(0%,50%);
+    font-size: 1em;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    border: transparent;
+    background-color: #0051f4e0 ;
+    color: white;
+    margin: 8px 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+  }
+  
+  .btncnt:hover{
+    background-color:#0052F4 ;
+  }
+
+  .btndis{
+    transform: translate(120%,50%);
+    font-size: 1em;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    bottom: 59px;
+    position: relative;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    border: transparent;
+    background-color: #f40000e4 ;
+    color: white;
+    margin: 8px 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+  }
+  
+  .btndis:hover{
+    background-color:#f40000 ;
+  }
+
+  @media (max-width: 576px) {
+    .Summary{
+      color: #000000a1;
+      position: relative;
+      font-size: 2.5em;
+      font-family: "Signika Negative", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      margin: 20px;
+      z-index: 999;
+  }
+  
+  
+  .summary_container{
+      z-index: 996;
+      position: relative;
+      left: 8px;
+      width: 95%;
+      height: 1500px;
+      border-radius: 25px;
+      border: 2px solid black;
+  
+  }
+
+  table{
+      position: relative;
+      margin: 30px;
+  }
+  
+  th,td{
+      width: 280px;
+  }
+  
+
+th.qut,td.qut{
+  position: relative;
+  left: -13px;
+  background: transparent;
+}
+
+th.price,td.price{
+  position: relative;
+  left: 2px;
+}
+
+th.cat,td.cat{
+    position: relative;
+    left: -26px;}
+
+  .itm {
+    line-height: 1.5;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+th.itm,td.itm {
+  position: relative;
+  width: 100%;
+  left: -16px;
+}
+
+
+
+  
+  .cat, .price, .qut {
+    line-height: 1.1;
+    position: relative;
+    text-align: right;
+    left: -59px;
+    font-size: 1.2em;
+}
+
+.hr14r {
+  border: 2px solid white;
+  width: 95%;
+  position: relative;
+  left: 7px;
+}
+  
+  .billing_form{
+      width: 800px;
+      height: 500px;
+      border: none;
+      margin: 10px;
+      background: transparent;
+  
+  }
+  
+  .billing_form>h2{
+      margin: 20px;
+      color: #000000a1;
+      position: relative;
+      font-size: 1.5em;
+      font-family: "Signika Negative", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      position: relative;
+      right: 10px;
+      background: transparent;
+  }
+  
+  
+  form{
+      position: relative;
+      float: right;
+      right: 0px;
+      bottom: 0px;
+      background: transparent;
+    }
+    input[type=text] {
+      background: transparent;
+      font-size: 1em;
+      width: 325px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-clip: padding-box;
+      background-color: #ffffffcb;
+      color: black;
+      margin: 8px 0;
+      left: -143px;
+      position: relative;
+      outline: #01860cc5;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      display: inline-block;
+      border: transparent;
+  }
+    
+    input[type=text]:focus {
+      background-color: #ffff; 
+      border: transparent;
+    }
+    
+    input[type=text]:hover{
+      background-color: #ffff; 
+      border: transparent;
+    }
+  
+  ::placeholder{
+      color: black;
+  }
+  
+  .for_contact{
+      top: -24px;
+      position: relative;
+      float: right;
+      right: 48px;
+    }
+
+      .label_for_name {
+          position: relative;
+          top: -2px;
+      }
+      
+    label {
+      font-size: 1.2em;
+      font-family: "Signika Negative", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: #000000a1;
+      position: relative;
+      left: -134px;
+      top: 89px;
+  }
+  
+    input[type=phone] {
+      width: 325px;
+      background-color: #ffffffcb;
+      color: black;
+      position: relative;
+      top: 99px;
+      left: -421px;
+  }
+    
+    input[type=phone]:focus {
+      background-color: #ffff; 
+      border: transparent;
+    }
+    
+    input[type=phone]:hover{
+      background-color: #ffff; 
+      border: transparent;
+    }
+  
+      .label_for_phone {
+          position: relative;
+          left: -411px;
+      }
+  
+    input[type=address] {
+      font-size: 1em;
+      width: 325px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-clip: padding-box;
+      background-color: #ffffffcb;
+      color: black;
+      margin: 8px 0;
+      right: 143px;
+      position: relative;
+      outline: #01860cc5;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      display: inline-block;
+      border: transparent;
+      top: 95px;
+  }
+
+  label.for_landmark {
+    position: relative;
+    top: 74px;
+}
+
+label.label_for_pincode {
+  position: relative;
+  top: 67px;
+}
+
+label.label_for_city{
+  position: relative;
+  top: 157px;
+  left: -413px;
+}
+    
+    input[type=address]:focus {
+      background-color: #ffff; 
+      border: transparent;
+    }
+    
+    input[type=address]:hover{
+      background-color: #ffff; 
+      border: transparent;
+    }
+  
+    input[type=area] {
+      font-size: 1em;
+      width: 325px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-clip: padding-box;
+      background-color: #ffffffcb;
+      color: black;
+      margin: 8px 0;
+      right: 143px;
+      position: relative;
+      outline: #01860cc5;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      display: inline-block;
+      border: transparent;
+      top: 86px;
+  }
+    
+    input[type=area]:focus {
+      background-color: #ffff; 
+      border: transparent;
+    }
+    
+    input[type=area]:hover{
+      background-color: #ffff; 
+      border: transparent;
+    }
+  
+    
+    input[type=landmark] {
+      font-size: 1em;
+      width: 325px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-clip: padding-box;
+      background-color: #ffffffcb;
+      color: black;
+      margin: 8px 0;
+      right: 143px;
+      position: relative;
+      outline: #01860cc5;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      display: inline-block;
+      border: transparent;
+      top: 75px;
+  }
+    
+    input[type=landmark]:focus {
+      background-color: #ffff; 
+      border: transparent;
+    }
+    
+    input[type=landmark]:hover{
+      background-color: #ffff; 
+      border: transparent;
+    }
+
+
+    input[type=pincode] {
+      font-size: 1em;
+      width: 325px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-clip: padding-box;
+      background-color: #ffffffcb;
+      color: black;
+      margin: 8px 0;
+      right: 143px;
+      position: relative;
+      outline: #01860cc5;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      display: inline-block;
+      border: transparent;
+      top: 75px;
+  }
+    
+    input[type=pincode]:focus {
+      background-color: #ffff; 
+      border: transparent;
+    }
+    
+    input[type=pincode]:hover{
+      background-color: #ffff; 
+      border: transparent;
+    }
+
+  
+      input[type=city] {
+        font-size: 1em;
+        padding: 10px 20px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-clip: padding-box;
+        background-color: #ffffffcb;
+        color: black;
+        width: 322px;
+        margin: 8px 0;
+        position: relative;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        display: inline-block;
+        border: transparent;
+        position: relative;
+        top: 165px;
+        right: 423px;
+    }
+    
+    input[type=city]:focus {
+      background-color: #ffff; 
+      border: transparent;
+    }
+    
+    input[type=city]:hover{
+      background-color: #ffff; 
+      border: transparent;
+    }
+  
+    .bill {
+      border-radius: 25px;
+      border: none;
+      background-color: #c7c7c7;
+      width: 339px;
+      height: 494px;
+      float: right;
+      bottom: -124px;
+      position: relative;
+      margin: 20px;
+  }
+  
+    .est{
+      background-color: transparent;
+      margin: 20px;
+      color: #000000a1;
+      position: relative;
+      font-size: 1.1em;
+      font-family: "Signika Negative", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+    }
+  
+    .est>p{
+      background-color: transparent;
+      color: rgba(0, 0, 0, 0.834);
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+  
+    .note{
+      background-color: transparent;
+      margin: 20px;
+      color: #000000a1;
+      position: relative;
+      font-size: 1.1em;
+      font-family: "Signika Negative", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+    }
+  
+    .note>p{
+      background-color: transparent;
+      color: rgba(0, 0, 0, 0.834)
+    }
+  
+    .hr15r{
+      background-color: transparent;
+      border: 2px solid white;
+    }
+  
+    .grand_total{
+      background-color: transparent;
+      margin: 20px;
+      color: #000000a1;
+      position: relative;
+      font-size: 1.1em;
+      font-family: "Signika Negative", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      
+    }
+  
+    .grand_total>p{
+      background-color: transparent;
+      color: rgba(0, 0, 0, 0.834);
+    }
+  
+    .item_amt{
+      background-color: transparent;
+      position: relative;
+      float: right;
+      margin: 20px;
+      bottom: 40px;
+    }
+  
+    .shipping{
+      background-color: transparent;
+      position: relative;
+      float: right;
+      margin: 20px;
+      left: 85px;
+      bottom: 40px;
+    }
+  
+    .hr16r {
+      background-color: transparent;
+      border: 2px solid white;
+      width: 334px;
+      position: relative;
+      left: -19px;
+      bottom: 40px;
+  }
+  
+  .tax{   
+      background-color: transparent;
+      bottom: 25px;
+      color: black;
+      position: relative;
+  
+      font-family: "Signika Negative", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+  }
+  
+  .item_tax{
+      background-color: transparent;
+      position: relative;
+      float: right;
+      left: 70px;
+      margin: 20px;
+      bottom: 40px;
+  }
+  
+  .hr17r {
+    border: 2px solid white;
+    width: 170px;
+    background-color: transparent;
+    position: relative;
+    float: right;
+    left: 20px;
+    top: -48px;
+    z-index: 1000;
+}
+  
+  .grand_amt{
+      position: relative;
+      float: right;
+      background-color: transparent;
+      left: 180px;
+      margin: 20px;
+      bottom: 37px;
+      background-color: transparent;
+      
+  }
+
+  .btncnt {
+    transform: translate(0%, 50%);
+    font-size: 1em;
+    width: 135px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    border: transparent;
+    background-color: #0051f4e0;
+    color: white;
+    margin: 8px 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    position: relative;
+    top: -44px;
+    left: 0px;
+}
+    
+    .btncnt:hover{
+      background-color:#0052F4 ;
+    }
+    .btndis {
+      transform: translate(120%, 50%);
+      font-size: 1em;
+      width: 138px;
+      padding: 10px 20px;
+      border-radius: 4px;
+      bottom: 59px;
+      position: relative;
+      box-sizing: border-box;
+      background-clip: padding-box;
+      border: transparent;
+      background-color: #f40000e4;
+      color: white;
+      margin: 8px 0;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      display: inline-block;
+      position: relative;
+      top: -45px;
+      left: -137px;
+  }
+    
+    .btndis:hover{
+      background-color:#f40000 ;
+    }
+    
+
+    .grand_amt {
+      position: relative;
+      float: right;
+      background-color: transparent;
+      left: 166px;
+      margin: 20px;
+      bottom: 57px;
+      background-color: transparent;
+  }
+
+    .navbar .toggle_button {
+      display: block;
+      position: relative;
+      top: -35px;
+      left: 25px;
+      z-index: 999;
+  }
+    
+  }

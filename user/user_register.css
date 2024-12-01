@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E7E5E1;
+}
+
+
+
+
+.name {
+    cursor: pointer;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    margin: 10px;
+}
+
+.logo_icon {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+a{
+    left:0px; 
+    top:10px; 
+    float: right;
+    position:relative; 
+    font-size:x-large;
+}
+.img{
+    width: 750px;
+    height: 779px;
+    border: none
+
+}
+
+.img>img{
+    width: auto;
+    height: 775.9px;
+    position: relative;
+    bottom: 05px;
+    right: 625px;
+}
+
+.register>h1{
+    transform: translate(-250%,-1400%);
+    position: relative;
+    float: right;
+    font-size: 2.0em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a.login {
+    position: relative;
+    color: blue;
+    top: 10px;
+    left: -158px;
+}
+
+input[type='email'],
+input[type='password']{
+
+    width: 400px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+    border: 2px solid black;
+    background-color: #cccbcbc3;
+}
+
+p{
+    position: relative;
+    top: 31px;
+    left: 96px;
+}
+
+.login{
+    position: relative;
+    top: 10px;
+    font-size: large;
+    left: -160px;
+    color: black;
+    text-decoration: auto;
+}
+
+::placeholder{
+    color: black;
+
+}
+
+.for_form{
+    position: relative;
+    float: right;
+    bottom: 600px;
+    right: 80px;
+}
+
+label{
+    position: relative;
+    left: 93px;
+}
+
+button{
+    color: white;
+    position: relative;
+    top: 63px;
+    left: 264px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 255, 0.768);
+
+}
+
+.gender{
+    position: relative;
+    left: -2px;
+    background-color: transparent;
+}
+
+.gender p{
+    position: relative;
+    top: -23px;
+    left: 327px;
+}
+
+.gender label{
+    position: relative;
+    bottom: 50px;
+    left: 355px;
+}
+
+input[type='radio']{
+    position: relative;
+    left: 280px;
+    bottom: 48px;
+}
+input#male.male{
+
+    position: relative;
+    left: 290px;
+    bottom: 48px;
+}
+
+ul{
+    position: relative;
+    top: 10px;
+    left: 94px;
+}
+
+li{
+    position: relative;
+    left: 20px;
+}
+
+
+
+input[type='name']{
+    position: relative;
+    width: 200px;
+    right: 199px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+    border: 2px solid black;
+    background-color: #cccbcbc3;
+    
+}
+
+@media (max-width: 1280px) {
+
+
+    a.login {
+        color: blue;
+        position: relative;
+        top: 7px;
+        left: 242px;
+        font-weight: 700;
+    }
+
+    .img>img {
+        width: auto;
+        height: 775.9px;
+        position: relative;
+        bottom: 05px;
+        right: 523px;
+    }
+    .for_form {
+        position: relative;
+        float: right;
+        bottom: 600px;
+        right: -30px;
+        background: transparent;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+        background-color: #E7E5E1;
+    }
+        
+    .name {
+        cursor: pointer;
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xxx-large;
+        margin: 0;
+        position: relative;
+        top: 0px;
+        z-index: 999;
+        background: transparent;
+
+    }
+    
+        
+    .logo_icon {
+        width: 40px;
+        height: 40px;
+        float: left;
+        background-color: transparent;
+    }
+
+    .company_name{
+        position: relative;
+        font-size: 0.4em;
+        left: 0;
+        top: -15px;
+        background-color: transparent;
+    }
+    
+    a{
+        left:0px; 
+        top:0px; 
+        float: none;
+        position:relative; 
+        font-size:x-large;
+    }
+
+    .img{
+        width: 0px;
+        height: 10px;
+        border: none
+    
+    }
+    
+    .img>img{
+        width: 410px;
+        height:250px;
+        position: relative;
+        bottom: 60px;
+        right: 0;
+    }
+    
+    .register>h1{
+        transform: translate(0%, 0%);
+        position: relative;
+        float: right;
+        top: 200px;
+        right: 160px;
+        font-size: 1.5em;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    input[type='email'], input[type='password'] {
+        width: 325px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        position: relative;
+        left: -13px;
+        float: right;
+        border: 2px solid black;
+        background-color: #cccbcbc3;
+    }
+
+    input[type='password']{
+        position: relative;
+        top: 18px;
+    }
+    
+    p{
+        position: relative;
+        top: 31px;
+        left: 28px;
+    }
+    
+    .login{
+        position: relative;
+        top: 25px;
+        font-size: large;
+        left: 56px;
+        color: black;
+        text-decoration: auto;
+    }
+    
+    ::placeholder{
+        color: black;
+    
+    }
+    
+    .for_form{
+        position: relative;
+        float: right;
+        top: 220px;
+        right: 35px;
+    }
+    
+    label{
+        position: relative;
+        left: 64px;
+    }
+
+    div:where(.swal2-container) .swal2-html-container {
+        z-index: 1;
+        justify-content: center;
+        margin: 1em 1.6em .3em;
+        padding: 0;
+        overflow: auto;
+        color: inherit;
+        font-size: 1.125em;
+        font-weight: normal;
+        line-height: normal;
+        text-align: center;
+        word-wrap: break-word;
+        word-break: break-word;
+        background: transparent;
+    }
+    
+    button {
+        position: relative;
+        top: 70px;
+        left: 130px;
+        padding: 8px 20px;
+        border-radius: 10px;
+        background-color: #0000fff0;
+        margin-bottom: 80px;
+        color: white;
+    }
+    
+    button:hover{
+        background-color: #0000ffd8;
+    
+    }
+    
+    .gender {
+        position: relative;
+        left: 32px;
+        top: 73px;
+        background-color: transparent;
+    }
+    .already{
+        position: relative;
+        top: 31px;
+        left: 54px;
+    }
+    .gender p {
+        position: relative;
+        top: -27px;
+        width: 100px;
+        left: 32px;
+        background: transparent;
+    }
+    .gender label {
+        position: relative;
+        bottom: 50px;
+        width: 27px;
+        left: 34px;
+    }
+    
+    input[type='radio']{
+        position: relative;
+        left: 45px;
+        bottom: 47px;
+        width: 19px;
+    }
+    input#male.male{
+    
+        position: relative;
+        left: 38px;
+        bottom: 47px;
+    }
+
+    .password{
+        position: relative;
+        top: 31px;
+    }
+    
+    ul {
+        position: relative;
+        top: 33px;
+        left: 57px;
+        font-size: 0.8em;
+        width: 99%;
+    }
+    
+    li{
+        position: relative;
+        left: 18px;
+        width: 250px;
+    }
+    
+    
+    
+    input[type='name'] {
+        position: relative;
+        width: 325px;
+        left: -13px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        position: relative;
+        float: right;
+        border: 2px solid black;
+        background-color: #cccbcbc3;
+    }
+    
+
+}

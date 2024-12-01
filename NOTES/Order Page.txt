@@ -1,0 +1,16 @@
+Order Page
+
+=>Items
+=>category
+=>Quantity(per item)
+=>price(per item)
+=>Shipping Address
+=>Billing Address
+=>Payment Method
+=>Estimated Dilevery Date
+=>Billing Table(Order Summary)
+->Total Items cost
+->Shipping cost
+->Total Tax Included
+->Order Total
+

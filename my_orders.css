@@ -1,0 +1,156 @@
+#loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 9999; /* Ensure loader is above everything */
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 0 -40px; /* Center the loader */
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #009e1d;
+    animation: spin 2s linear infinite;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  #loading-text {
+    color: #006f09;
+    text-align: center;
+    position: fixed;
+    font-size: 1.5em;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 9998; /* Ensure text is above content, below loader */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* CSS to fade in the page content */
+  #page-content {
+    display: none; /* Initially hidden */
+    opacity: 0; /* Initially transparent */
+    animation: fadeIn 1s ease-in-out forwards; /* Fade in animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+
+.main_line{
+    position: relative;
+    text-align: center;
+    color: #000000a1;
+    
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hr18r{
+    border: 2px solid white;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th,td{
+    border-top: none;
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    text-align: center;
+    border-right: none;
+    border-left: none;
+}
+
+th{
+    background-color: #006f09c3;
+    color: white;
+}
+
+
+table td:nth-child(even){background-color: #006f091c;}
+
+table td:nth-child(odd):hover{background-color: #006f091c;}
+
+div:where(.swal2-icon).swal2-error.swal2-icon-show .swal2-x-mark {
+    animation: swal2-animate-error-x-mark .5s;
+    background: transparent;
+}
+
+.swal2-title{
+    background-color: transparent;
+    
+}
+div.swa12-actions{
+    background: transparent;
+    display: flex;
+}
+
+button.swa12-confirm.swa12-styled{
+    background: transparent;
+}
+
+/* Media query for screens up to 576px */
+@media (max-width: 576px) {
+  /* Adjust table and cell styles for smaller screens */
+  th, td {
+      padding: 6px; /* Decrease padding */
+  }
+
+  th {
+      font-size: 12px; /* Adjust font size */
+  }
+
+  th,td{
+    border-top: none;
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding: 00px 0;
+    text-align: center;
+    border-right: none;
+    border-left: none;
+}
+  td {
+      font-size: 12px; /* Adjust font size */
+  }
+
+  div.main_table{
+    position: relative;
+    left: -16px;
+}
+.dropdown {
+  left: 2rem;
+  width: unset;
+  margin-top: 15%;
+  height: 0px;
+  position: relative;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  position: relative;
+  transform: translateX(-5%);
+  width: 90%;
+  z-index: 998;
+}
+  /* Ensure table is scrollable horizontally on small screens */
+  table {
+      overflow-x: auto;
+  }
+}

@@ -1,0 +1,16 @@
+=>MYSQL Database 
+->Connect
+->Create DB
+->Create Table
+->Insert Data 
+->Get Last ID
+->Insert Multiple
+->Prepared
+->Select Data
+->Where
+->Order By
+->Delete Data
+->Update Data
+->Limit Data
+
+=>XML

@@ -1,0 +1,5 @@
+=>Summernote
+
+=>Item Weight
+=>Generic Name
+=>About This Prouct

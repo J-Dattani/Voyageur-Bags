@@ -1,0 +1,9 @@
+for category and item
+1.create
+2.edit
+3.delete
+4.list
+
+from list
+
+

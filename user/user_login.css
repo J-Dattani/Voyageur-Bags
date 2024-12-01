@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    background-color: #E7E5E1;
+}
+
+.name {
+    cursor: pointer;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    margin: 10px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.logo_icon {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+a{
+    left:0px; 
+    top:10px; 
+    float: right;
+    position:relative; 
+    font-size:x-large;
+}
+.img{
+    width: 750px;
+    height: 779px;
+    border: none
+
+}
+
+.img>img{  -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: auto;
+    height: 775.9px;
+    position: relative;
+    bottom: 05px;
+    right: 625px;
+}
+
+.login>h1{
+    top: 24px;
+    right: -20px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transform: translate(-208%, -1047%);
+    position: relative;
+    float: right;
+    font-size: 2.0em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    z-index: 999;
+    font-style: normal;
+}
+
+input[type='email'], input[type='password'] {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 400px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+    border: 2px solid black;
+    background-color: #cccbcbc3;
+    position: relative;
+    right: 43px;
+    top: 94px;
+}
+
+input.input_pass{
+    position: relative;
+    top: 57px;
+}
+
+
+
+::placeholder{
+    color: black;
+
+}
+
+.for_form {
+    position: relative;
+    float: right;
+    bottom: 584px;
+    right: -125px;
+    height: 411px;
+    box-shadow: 0 0 10px rgb(0 0 0);
+    width: 498px;
+}
+.label_email{
+    position: relative;
+    top: 113px;
+}
+
+.new_p {
+    position: relative;
+    top: 36px;
+    left: 40px;
+    background: transparent;
+}
+
+label {
+    position: relative;
+    left: 40px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: 77px;
+}
+
+
+.login-btn{
+    color: white;
+    position: relative;
+    top: 63px;
+    left: 207px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 255, 0.768);
+}
+
+.error{
+    text-align: center;
+}
+
+.login{
+    position: relative;
+    top: -20px;
+    font-size: large;
+    left: -147px;
+    color: black;
+    text-decoration: auto;
+    
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a.login {
+    position: relative;
+    top: 14px;
+    left: -184px;
+    color: blue;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+        background-color: #E7E5E1;
+    }
+    
+    .name {
+        cursor: pointer;
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xxx-large;
+        margin: 0;
+        position: relative;
+        top: 0px;
+        z-index: 999;
+        background: transparent;
+
+    }
+    
+    .logo_icon {
+        width: 40px;
+        height: 40px;
+        float: left;
+        background-color: transparent;
+    }
+
+    .company_name{
+        position: relative;
+        font-size: 0.4em;
+        left: 0;
+        top: -15px;
+        background-color: transparent;
+    }
+    
+    a{
+        left:0px; 
+        top:0px; 
+        float: none;
+        position:relative; 
+        font-size:x-large;
+    }
+    .img{
+        width: 10px;
+        height: 10px;
+        border: none
+    
+    }
+    
+    .img>img{
+        width: auto;
+        height:267px;
+        position: relative;
+        bottom: 60px;
+        right: 0;
+    }
+    
+    .login>h1 {
+        transform: translate(0%, 0%);
+        position: relative;
+        float: right;
+        top: 232px;
+        right: 221px;
+        font-size: 1.7em;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    input[type='email'], input[type='password'] {
+        width: 350px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        position: relative;
+        left: -18px;
+        float: right;
+        top: 98px;
+        border: 2px solid black;
+        background-color: #cccbcbc3;
+    }
+    
+    
+    
+    ::placeholder{
+        color: black;
+    
+    }
+    
+    .for_form {
+        position: relative;
+        float: right;
+        top: 157px;
+        right: 58px;
+        width: 406px;
+        box-shadow: 0 0 10px rgb(0 0 0);
+    }
+
+    label {
+        position: relative;
+        left: 20px;
+        top: 106px;
+        font-size: 1.2em;
+    }
+    label.label_pass {
+        position: relative;
+        top: 62px;
+        font-size: 1.2em;
+    }
+
+    input.input_pass {
+        position: relative;
+        top: 54px;
+    }
+
+    a.login {
+        color: blue;
+        position: relative;
+        top: -2px;
+        left: 242px;
+        font-weight: 700;
+    }
+
+    .login-btn {
+        position: relative;
+        width: 100px;
+        top: 65px;
+        left: 91px;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 10px;
+        background-color: #0000fff0;
+        border: none;
+        outline: none;
+        height: 50px;
+    }
+    
+    button:hover{
+        background-color: #0000ffd8;
+    }
+    
+    .error{
+        text-align: center;
+    }
+    
+    .login{
+        position: relative;
+        font-size: large;
+        left: 22px;
+        color: black;
+        top: 21px;
+        text-decoration: auto;
+    }
+    div:where(.swal2-container) .swal2-html-container {
+        z-index: 1;
+        justify-content: center;
+        margin: 1em 1.6em .3em;
+        padding: 0;
+        overflow: auto;
+        color: inherit;
+        font-size: 1.125em;
+        font-weight: normal;
+        line-height: normal;
+        text-align: center;
+        word-wrap: break-word;
+        word-break: break-word;
+        background: transparent;
+    }
+
+    .new_p {
+        position: relative;
+        left: 21px;
+        bottom: -25px;
+        background: transparent;
+        font-size: 1.2em;
+    }
+}

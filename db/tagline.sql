@@ -1,0 +1,4 @@
+CREATE TABLE tagline(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tagline VARCHAR(255) 
+);

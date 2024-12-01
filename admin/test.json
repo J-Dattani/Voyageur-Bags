@@ -1,0 +1,7 @@
+
+{
+    "data": [
+        {"id": "1", "image": "path/to/image1.jpg", "location": "Location 1"},
+        {"id": "2", "image": "path/to/image2.jpg", "location": "Location 2"}
+    ]
+}
