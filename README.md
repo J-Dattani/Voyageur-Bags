@@ -1,5 +1,5 @@
 <h1>
-  <img src="https://github.com/J-Dattani/Voyageur-Bags/blob/main/img/bags.svg" alt="Voyageur Bags Logo" width="50" height="40" style="vertical-align: middle; margin-bottom: 100px;">
+  <img src="https://github.com/J-Dattani/Voyageur-Bags/blob/main/img/bags.svg" alt="Voyageur Bags Logo" width="50" height="40" style="vertical-align: middle; bottom: 100px; position: relative;">
   <span>Voyageur Bags : E-commerce Website</span>
 </h1>
 
