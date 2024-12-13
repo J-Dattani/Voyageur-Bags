@@ -60,4 +60,4 @@ I would like to express my gratitude to **9Brainz** for providing the opportunit
 
 ---
 
-Feel free to reach out via [work.jdattani@gmail.com] if you have any questions or suggestions. Thank you for exploring Voyageur Bags!
+Feel free to reach out via work.jdattani@gmail.com if you have any questions or suggestions. Thank you for exploring Voyageur Bags!
