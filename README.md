@@ -23,7 +23,6 @@ Voyageur Bags is an e-commerce website dedicated to showcasing and selling vario
 - **CSS**: For styling and responsive designs.
 - **JavaScript**: For interactive features.
 - **PHP**: For server-side scripting and backend integration.
-- **V6**: For enhancing development capabilities.
 
 ## Getting Started
 Follow these steps to set up the project locally:
