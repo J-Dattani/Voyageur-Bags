@@ -1,6 +1,6 @@
 # Voyageur Bags - E-commerce Website
 
-![Voyageur Bags Logo](path/to/logo.png)
+![Voyageur Bags Logo](https://github.com/J-Dattani/Voyageur-Bags/blob/main/img/bags.svg)
 
 Voyageur Bags is an e-commerce website dedicated to showcasing and selling various types of bags, such as duffel bags, travel bags, and more. This project was developed during my internship at **9 Brainz** and is now open-sourced for the community to explore, learn, and contribute.
 
