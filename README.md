@@ -1,4 +1,4 @@
-<h1 style="position: absolute; bottom: 0; display: flex; align-items: center; gap: 10px;>
+<h1 style="position: absolute; bottom: 0; display: flex; align-items: center; gap: 10px;">
   <img src="https://github.com/J-Dattani/Voyageur-Bags/blob/main/img/bags.svg" alt="Voyageur Bags Logo" width="40" height="40">
   <span>Voyageur Bags : E-commerce Website</span>
 </h1>
