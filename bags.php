@@ -667,54 +667,52 @@ function buy() {
 }
 </script>
 <script>
-// Define the array to hold all offer end dates
-var offerEndDates = [
-    new Date("2024-08-01T23:59:59").getTime(), // Offer end date for the first set of products
-
-    // Add more offer end dates as needed
-];
-
-// Function to calculate the nearest ending offer date
-function calculateNearestEndDate() {
-    // Loop through all offer end dates and find the nearest one
-    var now = new Date().getTime();
-    var nearestEndDate = null;
-    for (var i = 0; i < offerEndDates.length; i++) {
-        var distance = offerEndDates[i] - now;
-        if (nearestEndDate === null || distance < (nearestEndDate - now)) {
-            nearestEndDate = offerEndDates[i];
-        }
-    }
-    return nearestEndDate;
+// Function to calculate the next offer end date (6 months from the current time)
+function getNextOfferEndDate() {
+    // Get the current date and set the offer end to 6 months from now
+    var now = new Date();
+    now.setMonth(now.getMonth() + 6);  // Add 6 months
+    return now.getTime();
 }
 
 // Function to update countdown timer for all products
 function updateCountdown() {
-    var nearestEndDate = calculateNearestEndDate();
+    // Start with the first offer end date (6 months from now)
+    var offerEndDate = getNextOfferEndDate();
+
     var x = setInterval(function() {
         var now = new Date().getTime();
-        var distance = nearestEndDate - now;
+        var distance = offerEndDate - now;
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
         // Update countdown timer for all products
         var counters = document.querySelectorAll(".offer-countdown");
         counters.forEach(function(counter) {
             counter.innerHTML = "Offer Ends-in: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
         });
+
+        // If the offer has expired, set the next countdown
         if (distance < 0) {
             clearInterval(x);
             counters.forEach(function(counter) {
                 counter.innerHTML = "EXPIRED";
             });
+
+            // After 6 months, reset to the next countdown
+            setTimeout(function() {
+                updateCountdown(); // Start the countdown for the next 6-month period
+            }, 1000);
         }
-    }, 1000);
+    }, 1000); // Update every second
 }
 
 // Call updateCountdown to start countdown for all products
 updateCountdown();
 </script>
+
 
 
 
