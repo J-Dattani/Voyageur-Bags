@@ -53,7 +53,7 @@ Follow these steps to set up the project locally:
 Explore the `screenshots` folder for a visual representation of the project features and structure. [Go to Screenshots Folder](https://github.com/J-Dattani/Voyageur-Bags/tree/main/Screenshots).
 
 ## Usage Guidelines
-Feel free to clone the repository and run it on your local system to test and explore its features. However, forking or submitting changes is restricted due to its proprietary nature.
+Feel free to clone the repository and run it on your local system to test and explore its features. However, forking or submitting changes is restricted.
 
 ## Acknowledgements
 I would like to express my gratitude to **9Brainz** for providing the opportunity to work on this project during my internship. Special thanks to my mentors for their guidance and support throughout the development process.
