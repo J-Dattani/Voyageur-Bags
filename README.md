@@ -3,7 +3,7 @@
   Voyageur Bags - E-commerce Website
 </h1>
 
-Voyageur Bags is an e-commerce website dedicated to showcasing and selling various types of bags, such as duffel bags, travel bags, and more. This project was developed during my internship at **9 Brainz**. While it is available for the community to explore and learn from, forking or committing changes to the repository is not permitted as it is proprietary to the company. However, users can run it locally to test its functionality.
+Voyageur Bags is an e-commerce website dedicated to showcasing and selling various types of bags, such as duffel bags, travel bags, and more. This project was developed during my internship at **9Brainz**. While it is available for the community to explore and learn from, forking or committing changes to the repository is not permitted. However, users can run it locally to test its functionality.
 
 ## Features
 - Browse a variety of bag collections.
@@ -56,7 +56,7 @@ Explore the `screenshots` folder for a visual representation of the project feat
 Feel free to clone the repository and run it on your local system to test and explore its features. However, forking or submitting changes is restricted due to its proprietary nature.
 
 ## Acknowledgements
-I would like to express my gratitude to **9 Brainz** for providing the opportunity to work on this project during my internship. Special thanks to my mentors and colleagues for their guidance and support throughout the development process.
+I would like to express my gratitude to **9Brainz** for providing the opportunity to work on this project during my internship. Special thanks to my mentors and colleagues for their guidance and support throughout the development process.
 
 ---
 
