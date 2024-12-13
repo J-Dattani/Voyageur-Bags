@@ -1,6 +1,6 @@
 <h1>
-  <img src="https://github.com/J-Dattani/Voyageur-Bags/blob/main/img/bags.svg" alt="Voyageur Bags Logo" width="30" height="30">
-  <span style="position: relative; top: 25px">Voyageur Bags : E-commerce Website</span>
+  <img src="https://github.com/J-Dattani/Voyageur-Bags/blob/main/img/bags.svg" alt="Voyageur Bags Logo" width="27" height="27">
+  <span>Voyageur Bags : E-commerce Website</span>
 </h1>
 
 Voyageur Bags is an e-commerce website dedicated to showcasing and selling various types of bags, such as duffel bags, travel bags, and more. This project was developed during my internship at **9Brainz**. While it is available for the community to explore and learn from, forking or committing changes to the repository is not permitted. However, users can run it locally to test its functionality.
