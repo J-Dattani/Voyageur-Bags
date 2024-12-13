@@ -34,7 +34,7 @@ Follow these steps to set up the project locally:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/voyageur-bags.git
+   git clone https://github.com/J-Dattani/voyageur-bags.git
    ```
 2. Move the project to your server's root directory:
    - For XAMPP, move it to the `htdocs` folder.
@@ -56,8 +56,8 @@ Explore the `screenshots` folder for a visual representation of the project feat
 Feel free to clone the repository and run it on your local system to test and explore its features. However, forking or submitting changes is restricted due to its proprietary nature.
 
 ## Acknowledgements
-I would like to express my gratitude to **9Brainz** for providing the opportunity to work on this project during my internship. Special thanks to my mentors and colleagues for their guidance and support throughout the development process.
+I would like to express my gratitude to **9Brainz** for providing the opportunity to work on this project during my internship. Special thanks to my mentors for their guidance and support throughout the development process.
 
 ---
 
-Feel free to reach out via [your email/contact information] if you have any questions or suggestions. Thank you for exploring Voyageur Bags!
+Feel free to reach out via [work.jdattani@gmail.com] if you have any questions or suggestions. Thank you for exploring Voyageur Bags!
