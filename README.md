@@ -1,14 +1,16 @@
+# Voyageur Bags - E-commerce Website
+
 <h1>
   <img src="https://github.com/J-Dattani/Voyageur-Bags/blob/main/img/bags.svg" alt="Voyageur Bags Logo" width="50" style="vertical-align: middle; margin-right: 10px;">
   Voyageur Bags - E-commerce Website
 </h1>
 
-Voyageur Bags is an e-commerce website dedicated to showcasing and selling various types of bags, such as duffel bags, travel bags, and more. This project was developed during my internship at **9Brainz** and is now open-sourced for the community to explore, learn, and contribute.
+Voyageur Bags is an e-commerce website dedicated to showcasing and selling various types of bags, such as duffel bags, travel bags, and more. This project was developed during my internship at **9 Brainz**. While it is available for the community to explore and learn from, forking or committing changes to the repository is not permitted as it is proprietary to the company. However, users can run it locally to test its functionality.
 
 ## Features
 - Browse a variety of bag collections.
 - User-friendly design with responsive layouts.
-- Functionalities implemented with HTML, PHP, CSS, JavaScript, and V6.
+- Functionalities implemented with HTML, PHP, CSS, and JavaScript.
 - Admin panel for full control over:
   - Adding new items.
   - Creating new bag categories.
@@ -52,15 +54,11 @@ Follow these steps to set up the project locally:
 ## Screenshots
 Explore the `screenshots` folder for a visual representation of the project features and structure. [Go to Screenshots Folder](https://github.com/J-Dattani/Voyageur-Bags/tree/main/Screenshots).
 
-## Contribution
-This project is open to contributions! Feel free to:
-- Fork the repository.
-- Clone the repository to your local system.
-- Make changes or add features.
-- Submit a pull request for review.
+## Usage Guidelines
+Feel free to clone the repository and run it on your local system to test and explore its features. However, forking or submitting changes is restricted due to its proprietary nature.
 
 ## Acknowledgements
-I would like to express my gratitude to **9Brainz** for providing the opportunity to work on this project during my internship. Special thanks to my mentors and colleagues for their guidance and support throughout the development process.
+I would like to express my gratitude to **9 Brainz** for providing the opportunity to work on this project during my internship. Special thanks to my mentors and colleagues for their guidance and support throughout the development process.
 
 ---
 
